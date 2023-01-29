@@ -1,0 +1,603 @@
+body{
+    background-color: #0F1624;
+    /* background-color: #332049; */
+    /* background-color: #0d4836; */
+}   
+
+.portfolio{
+    padding-left: 5rem;
+    font-size: 2.1875rem;
+    font-weight: 700;
+}
+
+.navbar-content{
+    font-weight: 600;
+    font-size: 1.5625rem;
+}
+
+.nav-icon-size{
+    font-size: 2.5rem;
+    padding-left: 37.5rem;
+}
+
+.figma-icon{
+    height: 2rem;
+    width: 1.25rem;
+    margin-left: 1.125rem;
+}
+
+
+/* .light-mode {
+background-color: white;
+}
+
+.button-border{
+border: none;
+background: none;
+} */
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+/* ------------------Start-Head-Section------------------- */
+
+.padding-head{
+    padding-top: 9.375rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 6rem;
+}
+
+.head-content{
+    padding-top: 1.25rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+}
+
+.lets-begin-button{
+    padding-left: 2.1875rem;
+    padding-top: 0.625rem;
+    padding-right: 2.1875rem;
+    padding-bottom: 0.625rem;
+    background: linear-gradient(270deg, #13C791 0%, #6978D1 66.67%, #945DD6 100%);
+    border-radius: 5.1875rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    border: none;
+}
+
+/* ------------------End-Head-Section------------------- */
+
+
+
+/* ----------------start-project-section------------------ */
+
+.projects{
+    padding-top: 15.625rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 6rem;
+
+}
+
+.padding-card{
+    padding-top: 6.25rem;
+}
+
+.card-style-1{
+    padding-top: 0.625rem;
+    padding-bottom: 1.25rem;
+    background: #0F1624;
+    box-shadow: 0rem 0rem 0.75rem #FFFFFF;
+    border-radius: 3.125rem 0rem;
+
+}
+
+.image-padding{
+    padding: 1rem;
+    height: 16.25rem;
+    border-radius: 1.25rem;
+}
+
+.look-itup-button{
+    padding-left: 1.875rem;
+    padding-top: 0.5rem;
+    padding-right: 1.875rem;
+    padding-bottom: 0.5rem;
+    background: linear-gradient(270deg, #13C791 0%, #6978D1 66.67%, #945DD6 100%);
+    border-radius: 5.1875rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    border: none;
+}
+
+
+/* -----------------end-project-section-------------------- */
+
+
+
+
+
+/* ----------------Start-Technologies-Section------------------ */
+
+.tecnologies{
+    padding-top: 15.625rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 6rem;
+}
+
+.padding-progress-bar{
+    padding-top: 6.25rem;
+}
+
+.padding-rows{
+    padding-top: 1.875rem;
+}
+
+.heading-progress-bar{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+}
+
+/* -----------------End-Technologies-Section------------------- */
+
+
+
+
+/* ----------------Start-About-me------------------ */
+
+.about-me{
+    padding-top: 15.625rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 6rem;
+}
+
+.padding-progress-bar{
+    padding-top: 3.125rem;
+}
+
+/* --------------------- */
+.step-wizard-list{
+    box-shadow: #6978D1;
+    color: #333;
+    list-style: none;
+    border-radius: 0.625rem;
+    display: flex;
+    padding: 1.25rem 0.625rem;
+    position: relative;
+    z-index: 10;
+}
+
+.step-wizard-item{
+    padding: 0 1.25rem;
+    flex-basis: 0;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 10.625rem;
+    position: relative;
+
+}
+
+.step-wizard-item + .step-wizard-item::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.1875rem;
+    background: #FFFFFF;
+    width: 100%;
+    height: 0.625rem;
+    transform: translateX(-50%);
+    z-index: -10;
+
+}
+
+.progress-count{
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 600;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    color: transparent;
+}
+
+.progress-count::after{
+    content: "";
+    height: 1.875rem;
+    width: 1.875rem;
+    background: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -10;
+}
+
+.progress-label{
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-top: 0.625rem;
+}
+
+/* .progress-count::before{                         
+    content: "";
+    width: 1.25rem;
+    height: 0.625rem;
+    border-left: 0.25rem solid black;
+    border-bottom: 0.25rem solid black;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -60%) rotate(-45deg);
+    transform-origin: center center;
+
+} */
+
+.progress-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.625rem;
+    text-align: center;
+}
+/* --------------------------- */
+
+/* -----------------End-About-me------------------- */
+
+
+
+
+/* ----------------start-Footer-Section------------------ */
+
+.padding-footer{
+    padding-top: 18.75rem;
+    padding-bottom: 3.125rem;
+}
+
+.call-me{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.9375rem;
+}
+
+.email{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.9375rem;
+}
+
+.icon-padding{
+    font-size: 3.75rem;
+}
+
+.figma-image{
+    padding-top: 1.25rem;
+}
+
+/* -----------------End-Footer-Section------------------- */
+
+
+
+
+
+
+/* Start Mobile view */
+
+@media all and (min-width: 577px)
+{
+    
+}
+
+
+@media all and (max-width: 576px)
+{  
+    .padding-all-mobile{
+        padding-left: 1.375rem;
+        padding-right: 1rem;
+    }
+
+    .portfolio {
+        padding-left: 0.75rem;
+        font-size: 1.5625rem;
+        font-weight: 700;
+    }
+
+    .navbar-toggler {
+        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+        font-size: medium;
+        line-height: 1;
+        color: var(--bs-navbar-color);
+        background-color: transparent;
+        border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+        border-radius: var(--bs-navbar-toggler-border-radius);
+        transition: var(--bs-navbar-toggler-transition);
+    }
+
+    .navbar-toggler-icon {
+        background-color: white;
+        border-radius: 0.25rem;
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .navbar-content{
+        font-weight: 500;
+        font-size: 1.125rem;
+        padding-left: 0.875rem;
+        padding-top: 1rem;
+        line-height: 0.9375rem;
+    }
+    
+    .nav-icon-size {
+        padding-left: 1rem;
+        padding-top: 1.25rem;
+    }
+
+    /* ------------Start-head-Section----------- */
+
+    .padding-head {
+        padding-top: 6.25rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .text-primary {
+        font-size: 2.5rem;
+        --bs-text-opacity: 1;
+        color: rgba(var(--bs-primary-rgb),var(--bs-text-opacity))!important;
+    }
+
+    .head-content{
+        padding-top: 0.625rem;
+        padding-left: 1.875rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.375rem;
+        line-height: 2.5rem;
+    }
+
+    .lets-begin-button {
+        padding-left: 1.25rem;
+        padding-top: 0.3125rem;
+        padding-right: 1.25rem;
+        padding-bottom: 0.3125rem;
+        background: linear-gradient(270deg, #13C791 0%, #6978D1 66.67%, #945DD6 100%);
+        border-radius: 5.1875rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.875rem;
+        border: none;
+    }
+
+    /* ------------End-head-Section----------- */
+
+    /* ----------Start-Project-Section---------- */
+
+    .projects {
+        padding-top: 10rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 6rem;
+    }
+
+    .padding-card {
+        padding-top: 5rem;
+    }
+
+    .image-padding {
+        padding: 1rem;
+        height: 12.5rem;
+        border-radius: 1.25rem;
+    }
+
+    .look-itup-button {
+        padding-left: 1.25rem;
+        padding-top: 0.3125rem;
+        padding-right: 1.25rem;
+        padding-bottom: 0.3125rem;
+        background: linear-gradient(270deg, #13C791 0%, #6978D1 66.67%, #945DD6 100%);
+        border-radius: 5.1875rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.875rem;
+        line-height: 1.875rem;
+        border: none;
+    }
+
+    .card-style-1 {
+        padding-top: 0rem;
+        padding-bottom: 0.3125rem;
+        background: #0F1624;
+        box-shadow: 0rem 0rem 0.75rem #ffffff;
+        border-radius: 3.125rem 0rem;
+    }
+
+    .padding-with-cards-mobile{
+        padding-top: 1.5625rem;
+    }
+
+    /* ----------End-Project-Section---------- */
+
+
+    /* .---------Start-Technologies-Section------ */
+
+    .tecnologies {
+        padding-top: 11.25rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 6rem;
+    }
+
+    .padding-progress-bar {
+        padding-top: 1.5625rem;
+    }
+
+    .heading-progress-bar {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 3.375rem;
+    }
+
+    .padding-rows {
+        padding-top: 1rem;
+    }
+
+    /* .---------End-Technologies-Section------ */
+
+
+
+    /* ----------Start-About-us-Section-------- */
+
+    .about-for-mobile{
+        display: none;
+    }
+
+    .step-for-mobile{
+        display: none;
+    }
+
+    /* ----------End-About-us-Section-------- */
+
+
+
+    /* ----------Start-Footer-Section-------- */
+
+    .padding-footer {
+        padding-top: 9.375rem;
+        padding-bottom: 3.125rem;
+    }
+
+    .call-me {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 3.125rem;
+    }
+
+    .email {
+        padding-top: 1rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 3.125rem;
+    }
+
+    .icon-padding {
+        font-size: 3.125rem;
+    }
+
+    .fa-github:before {
+        content: "\f09b";
+        font-size: 2.625rem;
+    }
+
+    .fa-linkedin-square:before {
+        content: "\f08c";
+        font-size: 2.625rem;
+    }
+
+    /* ----------End-Footer-Section-------- */
+
+   
+    
+}
+
+@media (min-width: 577px)
+{
+    html{
+        font-size: 40%;
+    }
+}
+
+@media (min-width: 768px)
+{
+    html{
+        font-size: 45%;
+    }
+}
+
+@media (min-width: 992px)
+{
+    html{
+        font-size: 60%;
+    }
+}
+
+
+@media (min-width: 1200px)
+{
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 1920px)
+{
+    html{
+        font-size: 100%;
+    }
+}
+
+/* End Mobile Views */
+
+
+
